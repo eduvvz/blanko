@@ -1,0 +1,17 @@
+.callout {
+    padding: 40px;
+
+    h2{
+        padding: 0px;
+        margin: 0px;
+    }
+
+    .btn-primary {
+        float: right;
+
+        @media only screen and (max-width: 500px) {
+            float: none;
+            margin-top: 10px;
+        }
+    }
+}

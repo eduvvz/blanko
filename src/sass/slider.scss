@@ -1,0 +1,13 @@
+.slider {
+    width: 100%;
+    img {
+        max-width: 100%;
+    }
+    @media screen and (max-width: 320px) {
+        display: none;
+    }
+}
+
+.slider-txt {
+    margin: 20px auto 20px auto;
+}
